@@ -15,7 +15,6 @@ model = "gpt-3.5-turbo"
 # assistant = client.beta.assistants.create(
 #   name="Personal Trainer",
 #   instructions="You are a highly knowledgable personal trainer and nutritionist.",
-#   tools=[{"type": "code_interpreter"}],
 #   model=model,
 # )
 
