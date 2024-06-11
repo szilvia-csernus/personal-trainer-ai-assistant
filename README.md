@@ -3,10 +3,6 @@
 Simple command line project using `OpenAI Assistants API`.
 
 
-> In the `audio-api-calls.ipynb` jupyter notebook, I demonstrate how to use the OpenAI Audio API models, Whisper and the Text To Speech APIs.
-
-
-
 ---
 
 ## How to run this project?
