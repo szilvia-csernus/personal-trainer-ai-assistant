@@ -12,33 +12,33 @@ model = "gpt-3.5-turbo"
 
 # Create our Assistant
 
-# assistant = client.beta.assistants.create(
-#   name="Personal Trainer",
-#   instructions="You are a highly knowledgable personal trainer and nutritionist.",
-#   model=model,
-# )
+assistant = client.beta.assistants.create(
+  name="Personal Trainer",
+  instructions="You are a highly knowledgable personal trainer and nutritionist.",
+  model=model,
+)
 
-# assistant_id = assistant.id
-# print(assistant_id)
+assistant_id = assistant.id
+print(assistant_id)
 
-assistant_id = "asst_52gGnQcKtZjnF9Zs2oBp8QK4"
+# assistant_id = "asst_52gGnQcKtZjnF9Zs2oBp8QK4"
 
 # Create a Thread
 
-# thread = client.beta.threads.create()
+thread = client.beta.threads.create()
 
-# thread_id = thread.id
-# print(thread_id)
+thread_id = thread.id
+print(thread_id)
 
-thread_id = "thread_z4PtZKiN2ueAFCBQX5D2qe7m"
+# thread_id = "thread_z4PtZKiN2ueAFCBQX5D2qe7m"
 
 # Create a Message
 
-# message = client.beta.threads.messages.create(
-#   thread_id=thread_id,
-#   role="user",
-#   content="How do I get started working out to lose fat and build muscles?"
-# )
+message = client.beta.threads.messages.create(
+  thread_id=thread_id,
+  role="user",
+  content="How do I get started working out to lose fat and build muscles?"
+)
 
 # Run the Assistant
 
