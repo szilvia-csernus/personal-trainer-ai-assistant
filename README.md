@@ -37,6 +37,12 @@ Simple command line project using `OpenAI Assistants API`.
 
    ```
 
+6. Run project in the integrated terminal:
+
+   `python main.py`
+
+
+
 
 ## Credits
 
